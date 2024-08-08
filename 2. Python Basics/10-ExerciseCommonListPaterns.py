@@ -6,7 +6,14 @@ new_friend = ['Stanley']
 print(friends.sort() + new_friend)
 
 
+EDIT:
+OWN TRY
 
+friends = ['Simon', 'Patty', 'Joy', 'Carrie', 'Amira', 'Chu']
+friends.append('Stanley')
+sort_newlist = sorted(friends)
+
+print(sort_newlist)
 
 
 
