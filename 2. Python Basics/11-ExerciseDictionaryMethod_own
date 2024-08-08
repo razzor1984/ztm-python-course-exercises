@@ -1,0 +1,13 @@
+#user = {
+#'age': 20,
+#'username': 'admin',
+#'weapons': 'magnum',
+#'is_active': True,
+#'clan': False
+#}
+#print(user.keys())
+#user.update({"weapons": "Colt"})
+#user.update({"is_banned": "false"})
+#user.update({"is_banned": "true"})
+#user2= user.copy()
+#print(user2)
