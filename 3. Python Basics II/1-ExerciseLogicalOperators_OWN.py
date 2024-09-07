@@ -11,7 +11,7 @@ if is_magician and is_expert:
 
 #if you' re not a magician: "You need magic powers"
 
-if is_magician and is_expert:
+if not is_magician:
   print('you are a master magician')
 
 #check if magician but not expert: "at least you're getting there"
