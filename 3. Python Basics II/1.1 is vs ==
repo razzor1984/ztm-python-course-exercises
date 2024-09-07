@@ -1,13 +1,13 @@
 print(True == 1)  should be True
-print('' == 1)    should be False
-print([] == 1)    should be False
+print('' == 1)    should be False  
+print([] == 1)    should be False  
 print(10 == 10.0) should be False   -- nur das war falsch !!!
 print([] == [])   should be True
 
 Correct answers:
 
 print(True == 1)  should be True
-print('' == 1)    should be False
-print([] == 1)    should be False
+print('' == 1)    should be False    #Empty String = ''
+print([] == 1)    should be False    #Empty Array = [] 
 print(10 == 10.0) should be True
 print([] == [])   should be True
