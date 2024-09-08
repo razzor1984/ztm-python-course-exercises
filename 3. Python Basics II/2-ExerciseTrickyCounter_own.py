@@ -6,7 +6,8 @@ total =  0
 
 #man looped durch die liste 1 bis 10 dann werden die daten in total abgespeichert
 for value in my_list:
-   total = total + value
+#geht auch total += value
+   total = total + value 
 
 print(total)
 
