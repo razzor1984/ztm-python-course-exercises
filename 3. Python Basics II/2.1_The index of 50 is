@@ -1,3 +1,18 @@
+
+Richtie antwor von andrei - Der zweite Code prüft auf den Wert in der Liste, ob er 55 ist.
+
+for i, char in enumerate(list(range(100))):  
+    if char == 55:  # Prüfung auf den Wert
+        print(f'index of 55 is: {i}')
+
+
+
+------------------------------------------------------------------------------------------------------------
+
+
+
+Mein code prüft nur auf den Index ob er 55 ist.
+
 for i,char in enumerate(list(range(100))):
  if i == 50:
     print('The index of 50 is',i)
