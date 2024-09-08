@@ -3,7 +3,7 @@ for i,char in enumerate(list(range(100))):
     print('The index of 50 is',i)
 
 
-erklärung:
+erklärung mit index 55:
 
 i ist der Index, den die enumerate-Funktion in jeder Iteration der Schleife erzeugt. Das bedeutet, dass in jeder Runde der Schleife i den aktuellen Index (von 0 bis 99 in deinem Beispiel) und char den aktuellen Wert aus der Liste enthält.
 
