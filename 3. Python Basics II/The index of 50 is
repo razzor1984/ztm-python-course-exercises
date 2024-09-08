@@ -1,0 +1,21 @@
+for i,char in enumerate(list(range(100))):
+ if i == 50:
+    print('The index of 50 is',i)
+
+
+erklärung:
+
+i ist der Index, den die enumerate-Funktion in jeder Iteration der Schleife erzeugt. Das bedeutet, dass in jeder Runde der Schleife i den aktuellen Index (von 0 bis 99 in deinem Beispiel) und char den aktuellen Wert aus der Liste enthält.
+
+Wenn du in der Schleife den Index i überprüfst (z. B. if i == 55:), dann bedeutet das: "Wenn der Index i gleich 55 ist, dann führe den Code innerhalb der Bedingung aus."
+
+Die Bedingung if i == 55 sorgt also dafür, dass nur dann etwas ausgegeben wird, wenn der Index 55 erreicht ist. Du weist i nicht manuell den Wert 55 zu, sondern die Schleife durchläuft alle Indizes von 0 bis 99, und wenn i gleich 55 wird, gibt der Code das entsprechende Element aus.
+
+Hier noch einmal der Code mit Erklärungen:
+
+python
+Copy code
+for i, char in enumerate(list(range(100))):  # Schleife läuft durch die Liste von 0 bis 99
+    if i == 55:  # Wenn der Index `i` gleich 55 ist
+        print(i, char)  # Drucke den Index und das Element an Position 55
+Die if i == 55-Zeile prüft den aktuellen Index der Schleife. Wenn der Index 55 ist, wird die Zeile print(i, char) ausgeführt, und es wird nur das Element an Index 55 ausgegeben.
