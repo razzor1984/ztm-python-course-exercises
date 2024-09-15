@@ -34,3 +34,16 @@ for row in picturelist:  # Iteriere über jede Zeile
     elif i == 1:
       print("*", end="")  # Gib ein Sternchen aus, aber bleib in der Zeile
   print()  # Gehe nach der Zeile in die nächste Zeile
+
+
+#Optimierter Code
+
+fill = '*'  # wennn man die daten nur dort ändert, dann ändert man es überall
+empty = ''
+for row in picturelist:  # Iteriere über jede Zeile
+  for pixel in row:  # Iteriere über jedes Element in der Zeile
+    if pixel: # wahrere Wert somit baucht man da keine bedingung 
+      print(fill, end='')  # Gib ein Leerzeichen aus, aber bleib in der Zeile, dass schafft man nur mit der end="" funktion weil dadurch man keinen Zeilenumbruch macht
+    else:
+      print(empty, end='')  # Gib ein Sternchen aus, aber bleib in der Zeile
+  print()  # Gehe nach der Zeile in die nächste Zeile
