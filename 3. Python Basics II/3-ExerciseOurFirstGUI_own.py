@@ -10,9 +10,12 @@ picturelist = [
 ]
 
 
-Hier hatte ich logik Fehler: code funktioniert nicht weil 
-Der Fehler liegt in der Logik deiner Schleife. In deinem Code iterierst du über die einzelnen Zeilen der picturelist, aber versuchst dann, 
-diese Zeilen direkt mit 0 oder 1 zu vergleichen, was nicht funktioniert, weil jede Zeile in picturelist eine Liste ist (nicht ein einzelnes Element).
+#Hier hatte ich logik Fehler: code funktioniert nicht weil 
+#Der Fehler liegt in der Logik deiner Schleife. In deinem Code iterierst du über die einzelnen Zeilen der picturelist, aber versuchst dann, 
+#diese Zeilen direkt mit 0 oder 1 zu vergleichen, was nicht funktioniert, weil jede Zeile in picturelist eine Liste ist (nicht ein einzelnes Element).
+
+#Mein gedanken gang war nicht das ich eine for loop habe und in diesem nochmal einen for loop einbauen kann. Der Fachausdruck ich "nested for loop"
+
 
 for i in picturelist:
   if (i == 0):
@@ -22,7 +25,7 @@ for i in picturelist:
   else:
     break
 
-Fixed Code:
+#Fixed Code:
 
 for row in picturelist:  # Iteriere über jede Zeile
   for i in row:  # Iteriere über jedes Element in der Zeile
