@@ -10,7 +10,7 @@ picturelist = [
 ]
 
 
-Hier hatte ich logig Fehler: code funktioniert nicht weil 
+Hier hatte ich logik Fehler: code funktioniert nicht weil 
 Der Fehler liegt in der Logik deiner Schleife. In deinem Code iterierst du über die einzelnen Zeilen der picturelist, aber versuchst dann, 
 diese Zeilen direkt mit 0 oder 1 zu vergleichen, was nicht funktioniert, weil jede Zeile in picturelist eine Liste ist (nicht ein einzelnes Element).
 
