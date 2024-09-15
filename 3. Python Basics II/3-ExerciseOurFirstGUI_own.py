@@ -14,7 +14,7 @@ picturelist = [
 #Der Fehler liegt in der Logik deiner Schleife. In deinem Code iterierst du über die einzelnen Zeilen der picturelist, aber versuchst dann, 
 #diese Zeilen direkt mit 0 oder 1 zu vergleichen, was nicht funktioniert, weil jede Zeile in picturelist eine Liste ist (nicht ein einzelnes Element).
 
-#Mein gedanken gang war nicht das ich eine for loop habe und in diesem nochmal einen for loop einbauen kann. Der Fachausdruck ich "nested for loop"
+#Mein gedanken gang war das ich einen for loop habe und das wars.Damit man aber durch alles durchläuft braucht man einen for loop und darunter nochmal einen for loop. Der Fachausdruck ich "nested for loop"
 
 
 for i in picturelist:
