@@ -26,4 +26,4 @@ def checkDriverAge(age="0"):
     print("Congratulations on your first year of driving. Enjoy the ride!")
 
 checkDriverAge(92)
-#checkDriverAge(0)
+#checkDriverAge()
