@@ -1,0 +1,11 @@
+### mit ki help ......
+
+
+def highest_even(li):
+  evens = []
+  for number in li:
+    if number % 2 == 0:  # Überprüfe, ob die Zahl gerade ist
+      evens.append(number)  # Füge die gerade Zahl zur Liste hinzu
+  return max(evens) if evens else None  # Gib die größte gerade Zahl zurück oder None, falls keine vorhanden ist
+
+print(highest_even([10, 2, 3, 4, 8, 11]))
